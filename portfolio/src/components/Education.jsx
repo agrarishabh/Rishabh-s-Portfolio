@@ -8,7 +8,7 @@ const educationData = [
     website: "https://iiitm.ac.in/",
     duration: "2023–2028",
     details: "B.Tech + M.Tech in Information Technology (IT)",
-    extra: "Grade: 8.08/10",
+    extra: "Grade: 8.26/10",
   },
   {
     name: "Dr Rizvi Learners Academy",

@@ -24,10 +24,7 @@ const Experience = () => {
         transition={{ delay: 0.2, duration: 0.6 }}
         viewport={{ once: true }}
       >
-        I’m currently working as a Web Development Intern at Qveto Technologies, where I contribute to building modern,
-        responsive web applications. During my internship, I've worked on real-world projects involving frontend and backend development
-        using the MERN stack. This experience has sharpened my problem-solving skills, improved my understanding of scalable application design,
-        and strengthened my ability to collaborate within a fast-paced development team.
+        I worked as a Web Development Intern at Qveto Technologies, where I contributed to building modern, responsive web applications using the MERN stack. I gained hands-on experience in real-world frontend and backend development, which sharpened my problem-solving skills, deepened my understanding of scalable application design, and strengthened my ability to collaborate within a fast-paced engineering team.
       </motion.p>
 
       <motion.div
@@ -53,13 +50,15 @@ const Experience = () => {
           >
             Qveto Technologies
           </a>
-          <span className="text-sm">– June 2025–Present</span>
+          <span className="text-sm">– June 2025–August 2025</span>
         </p>
 
         <ul className="list-disc list-inside mt-4 space-y-2 text-[#bbb]">
-          <li>Developed scalable frontend & backend with MERN</li>
-          <li>Integrated APIs and improved performance</li>
-          <li>Worked with authentication, dashboards and UI design</li>
+          <li> Designed and optimized a debounced search bar with query-parameter support, improving perfor
+mance and UX.</li>
+          <li> Worked on MERN stack development, contributing to APIs, database integration, and debug
+ging.</li>
+          <li> Improved responsive UI components and collaborated on production-level code.</li>
         </ul>
       </motion.div>
     </section>

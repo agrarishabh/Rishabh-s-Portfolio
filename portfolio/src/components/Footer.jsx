@@ -17,7 +17,7 @@ const Footer = () => {
                     <img src="/images/rishabh.png" alt="Logo" className="w-14 mb-2 hover:rotate-6 transition-transform" />
                     <p className="text-[#aaa] text-sm leading-relaxed">
                         Hi! I'm Rishabh Agrahari from Jaunpur, UP. <br />
-                        Full-stack web developer passionate about <span className="text-cyan-400">tech & innovation</span>.
+                        Aspiring SDE & Full-stack web developer passionate about <span className="text-cyan-400">tech & innovation</span>.
                     </p>
                 </div>
 

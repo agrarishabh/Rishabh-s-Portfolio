@@ -39,7 +39,7 @@ const Home = ({ onVideoLoaded }) => {
           <p className="text-xl mt-2 font-semibold text-cyan-400 h-10">
             <Typewriter
               words={[
-                "Competitive Coder",
+                "Software Developer",
                 "Problem Solving Enthusiast",
                 "MERN Stack Developer",
               ]}
@@ -53,12 +53,7 @@ const Home = ({ onVideoLoaded }) => {
           </p>
 
           <p className="desc mt-4 text-[#bbb]">
-            A 3rd year undergrad who is a passionate full-stack web developer and
-            competitive programmer from IIIT Gwalior. With strong problem-solving
-            skills and hands-on experience in the MERN stack, I love building
-            intuitive and scalable web applications. I'm always eager to learn
-            new technologies and currently exploring AI/ML, Data Science to
-            expand my horizons in tech.
+            A pre-final year B.Tech + M.Tech student at IIIT Gwalior, aspiring Software Development Engineer with hands-on experience building full-stack web applications using the MERN stack. I'm a competitive programmer with 700+ problems solved across LeetCode and Codeforces, and I enjoy designing intuitive, scalable systems. Currently exploring AI/ML and Data Science to broaden my engineering perspective.
           </p>
 
           <motion.a

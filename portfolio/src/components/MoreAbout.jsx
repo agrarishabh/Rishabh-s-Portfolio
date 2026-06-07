@@ -56,11 +56,7 @@ const MoreAbout = () => {
                         </h3>
                     </div>
                     <p className="text-[#bbb] text-sm mb-3">
-                        I’ve recently started Competitive Programming on{" "}
-                        <strong>Codeforces</strong> and <strong>CodeChef</strong>, and
-                        regularly practice on <strong>LeetCode</strong>. I’ve solved{" "}
-                        <strong>250+ DSA problems</strong>, earned several badges, and I'm
-                        improving with consistent practice.
+                        I practice Competitive Programming on <strong>Codeforces</strong> and <strong>LeetCode</strong>, having solved <strong>700+ DSA problems</strong> across both platforms. I've achieved <strong>Pupil</strong> rank on Codeforces with a peak rating of <strong>1208</strong>, and consistently work on sharpening my problem-solving skills across topics like graphs, dynamic programming, and data structures.
                     </p>
                     <div className="flex gap-5 mt-2 text-cyan-400">
                         <a

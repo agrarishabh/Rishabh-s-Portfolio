@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 *{
-  font-family: DM Sans, sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 .roles.typing {
   animation: typing 4s steps(40, end) infinite, blink 0.75s step-end infinite;

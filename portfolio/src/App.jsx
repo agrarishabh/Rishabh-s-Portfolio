@@ -7,6 +7,8 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MoreAbout from "./components/MoreAbout";
 
@@ -15,7 +17,7 @@ const App = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    // Timeout failsafe: if video doesn’t load in 5 seconds, hide loader anyway
+    // Timeout failsafe: if video doesn't load in 5 seconds, hide loader anyway
     const timeout = setTimeout(() => setIsLoaded(true), 5000);
 
     const handleVideoReady = () => {
@@ -37,6 +39,7 @@ const App = () => {
   return (
     <div className="text-[#d9d9d9]">
       {!isLoaded && <Loader />}
+      {/* Single background video — rendered once here */}
       <video
         ref={videoRef}
         autoPlay
@@ -53,11 +56,13 @@ const App = () => {
           <Navbar />
           <main className="space-y-32">
             <Home />
+            <Achievements />
             <Skills />
             <Projects />
-            <Education />
             <Experience />
             <MoreAbout />
+            <Education />
+            <Contact />
             <Footer />
           </main>
         </>

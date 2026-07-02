@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
   const techStack = [
-    'React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS',
+    'Machine Learning', 'Deep Learning', 'Generative AI', 'LLMs', 'Reinforcement Learning', 'Python'
   ];
 
   return (
@@ -28,9 +28,7 @@ const Experience = () => {
         transition={{ delay: 0.2, duration: 0.6 }}
         viewport={{ once: true }}
       >
-        Interned at Qveto Technologies as a Web Developer, contributing to
-        production MERN stack applications — from optimized search features
-        to responsive UI components.
+        Selected for Amazon's ML Summer School, gaining industry-aligned expertise directly from Amazon scientists in advanced Machine Learning and Generative AI.
       </motion.p>
 
       <motion.div
@@ -42,42 +40,25 @@ const Experience = () => {
       >
         {/* Header */}
         <div className="flex items-center justify-between gap-3 flex-wrap">
-          <h3 className="text-xl font-semibold text-[#d9d9d9]">Web Developer Intern</h3>
+          <h3 className="text-xl font-semibold text-[#d9d9d9]">Amazon ML Summer School'26</h3>
           <span className="text-sm text-[#888] bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 rounded-full">
-            June 2025 – August 2025
+            July 2026 – Present
           </span>
         </div>
 
         <p className="flex items-center gap-2 mt-3 text-[#ccc]">
-          <motion.img
-            src="/images/qveto.png"
-            alt="Qveto Logo"
-            className="w-6 h-6 object-contain hover:scale-110 transition-transform"
-            whileHover={{ rotate: 6 }}
-          />
-          <a
-            href="https://qveto.in/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan-400 font-semibold hover:underline"
-          >
-            Qveto Technologies
-          </a>
+          <span className="text-cyan-400 font-semibold text-lg">Amazon</span> <span className="text-sm">(Remote)</span>
         </p>
 
         {/* Bullet Points */}
         <ul className="list-none mt-4 space-y-2 text-[#bbb]">
           <li className="flex gap-2">
             <span className="text-cyan-400 mt-0.5 shrink-0">▸</span>
-            Designed and optimized a debounced search bar with query-parameter support, improving performance and UX.
+            Selected for Amazon’s ML Summer School, an expert-led program by Amazon scientists covering 8 rigorous modules including Supervised/Unsupervised Learning and Deep Neural Networks.
           </li>
           <li className="flex gap-2">
             <span className="text-cyan-400 mt-0.5 shrink-0">▸</span>
-            Worked on MERN stack development — contributed to APIs, database integration, and debugging production issues.
-          </li>
-          <li className="flex gap-2">
-            <span className="text-cyan-400 mt-0.5 shrink-0">▸</span>
-            Improved responsive UI components and collaborated on production-level code reviews.
+            Gained industry-aligned ML expertise in Sequential Learning, Reinforcement Learning, Generative AI & LLMs, and Causal Inference, directly applicable to large-scale production systems.
           </li>
         </ul>
 
